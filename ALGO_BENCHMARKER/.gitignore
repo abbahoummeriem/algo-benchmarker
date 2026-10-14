@@ -1,0 +1,35 @@
+bin/
+obj/
+plots/*.png
+plots/*.gp
+
+# Private documentation
+/Docs.md
+
+# Compiled binaries
+/bin/
+/obj/
+*.exe
+*.o
+*.obj
+
+# Generated benchmark charts
+/plots/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Editor settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
